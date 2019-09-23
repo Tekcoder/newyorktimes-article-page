@@ -82,11 +82,12 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -100,17 +101,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -118,6 +123,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -145,7 +151,7 @@ img[alt="website logo"] {
   padding: 20px;
 }
 
-.left-nav > a {
+.left-nav a {
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -179,9 +185,6 @@ img[alt="website logo"] {
   padding: 5px 10px 5px 10px;
   color: white;
   border-radius: 5px;
-}
-
-.right-nav > * {
   margin-left: 10px;
 }
 
@@ -219,7 +222,7 @@ article {
 }
 
 .article-image p {
-  color: #666666;
+  color: #666;
   font-size: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -259,7 +262,7 @@ article {
   font-weight: bold;
 }
 
-.author-container > div > h4 > a {
+.author-container a {
   padding-bottom: 20px;
   text-decoration: none;
   color: black;
@@ -276,7 +279,7 @@ article {
 }
 
 .icons > :nth-child(-n + 4) {
-  background-color: #eeeeee;
+  background-color: #eee;
   border-radius: 10px;
 }
 
