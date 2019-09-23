@@ -116,10 +116,10 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: "";
   content: none;
 }
@@ -285,26 +285,30 @@ article {
 
 aside {
   position: absolute;
-  right: 0;
-  width: 200px;
-  margin-right: 80px;
+  right: 100px;
+  width: 250px;
+  margin-bottom: 30px;
 }
 
 aside > h3 {
   font-weight: bold;
 }
-div > img {
-  width: 100px;
-  height: 100px;
-  display: block;
-  line-height: 100px;
+
+.editor-article {
+  list-style-type: none;
+}
+
+.editor-article > li {
   margin-bottom: 20px;
 }
 
-div > img,
-a {
+.editor-article img {
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+}
+
+.editor-article a {
   text-decoration: none;
   color: black;
-  display: inline;
-  vertical-align: middle;
 }
