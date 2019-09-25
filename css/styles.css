@@ -142,19 +142,18 @@ img[alt="Alan Guth"] {
 
 img[alt="website logo"] {
   height: 50px;
-  margin: 0 auto;
+}
+
+img[alt="bottom logo"] {
+  height: 50px;
+  width: 150px;
+  position: relative;
+  left: -200px;
 }
 
 .left-nav {
-  float: left;
-  width: 300px;
-  padding: 20px;
-}
-
-.left-nav a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+  position: relative;
+  border: 2px solid yellow;
 }
 
 .left-nav > * {
@@ -162,9 +161,9 @@ img[alt="website logo"] {
 }
 
 .center-nav {
-  float: left;
-  width: 760px;
+  position: relative;
   height: 100%;
+  border: 2px solid green;
 }
 
 .center-nav > div {
@@ -173,13 +172,33 @@ img[alt="website logo"] {
 }
 
 .right-nav {
-  float: right;
-  width: 300px;
+  position: relative;
   padding-right: 10px;
-  padding-top: 5px;
+  padding-top: 10px;
+  border: 2px solid red;
 }
 
-.right-nav > * {
+nav {
+  min-width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  border-bottom: thin solid black;
+}
+
+nav > * {
+  float: left;
+}
+
+nav a:first-of-type {
+  padding-top: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+nav > button {
+  margin-top: 10px;
   float: right;
   background-color: #6288a5;
   padding: 5px 10px 5px 10px;
@@ -188,11 +207,13 @@ img[alt="website logo"] {
   margin-left: 10px;
 }
 
-nav {
-  min-width: 100%;
-  height: 50px;
-  margin-bottom: 20px;
-  border-bottom: thin solid black;
+.logo-link {
+  margin-left: 30%;
+}
+
+nav > i {
+  padding-top: 15px;
+  padding-left: 10px;
 }
 
 article {
@@ -219,6 +240,145 @@ article {
 
 .article-image {
   padding-bottom: 20px;
+}
+
+.theory-inflation {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.footer h4 {
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+
+.theory-inflation h3 {
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+
+.theory-item {
+  float: left;
+  width: 23%;
+  padding-right: 10px;
+}
+
+.group-link {
+  width: 10%;
+  float: left;
+  padding-right: 50px;
+}
+
+.group-link > a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.group-link > * {
+  margin-bottom: 10px;
+}
+
+.theory-item > img {
+  width: 100%;
+  padding-top: 20px;
+  height: 150px;
+}
+
+.theory-item > h2,
+.popular-items > h2 {
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+}
+
+.popular-items {
+  border-top: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.theory-footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 44%;
+}
+
+.video-footer {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.video-footer h3 {
+  color: gray;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.video-footer h4 {
+  color: gray;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.read {
+  margin-top: 20px;
+  background-color: #6288a5;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  border-radius: 5px;
+  width: 350px;
+  height: 40px;
+}
+
+.footer {
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.cosmos {
+  float: left;
+  width: 65%;
+}
+
+.popular {
+  float: left;
+  width: 35%;
+}
+
+.popular-items {
+  float: left;
+  width: 50%;
+  padding-right: 10px;
+}
+
+.space {
+  width: 25%;
+  height: 300px;
+}
+
+.hrlink {
+  width: 1200px;
+}
+
+.editors,
+.links {
+  position: relative;
+  top: -150px;
+}
+
+.links {
+  width: 1600px;
+}
+
+img[alt="ice"] {
+  width: 100%;
 }
 
 .article-image p {
