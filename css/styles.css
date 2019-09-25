@@ -151,33 +151,6 @@ img[alt="bottom logo"] {
   left: -200px;
 }
 
-.left-nav {
-  position: relative;
-  border: 2px solid yellow;
-}
-
-.left-nav > * {
-  margin-right: 20px;
-}
-
-.center-nav {
-  position: relative;
-  height: 100%;
-  border: 2px solid green;
-}
-
-.center-nav > div {
-  width: 100px;
-  margin: 0 auto;
-}
-
-.right-nav {
-  position: relative;
-  padding-right: 10px;
-  padding-top: 10px;
-  border: 2px solid red;
-}
-
 nav {
   min-width: 100%;
   height: 50px;
@@ -187,6 +160,25 @@ nav {
 
 nav > * {
   float: left;
+}
+
+.group-link > a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.author-container a {
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.editor-article a {
+  text-decoration: none;
+  color: black;
 }
 
 nav a:first-of-type {
@@ -242,6 +234,10 @@ article {
   padding-bottom: 20px;
 }
 
+aside > h3 {
+  font-weight: bold;
+}
+
 .theory-inflation {
   width: 1000px;
   margin: 0 auto;
@@ -272,14 +268,6 @@ article {
   padding-right: 50px;
 }
 
-.group-link > a {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 20px;
-  color: black;
-  margin-bottom: 10px;
-}
-
 .group-link > * {
   margin-bottom: 10px;
 }
@@ -301,6 +289,9 @@ article {
   border-top: 1px solid black;
   padding-top: 20px;
   padding-bottom: 20px;
+  float: left;
+  width: 50%;
+  padding-right: 10px;
 }
 
 .theory-footer {
@@ -350,12 +341,6 @@ article {
 .popular {
   float: left;
   width: 35%;
-}
-
-.popular-items {
-  float: left;
-  width: 50%;
-  padding-right: 10px;
 }
 
 .space {
@@ -422,12 +407,6 @@ img[alt="ice"] {
   font-weight: bold;
 }
 
-.author-container a {
-  padding-bottom: 20px;
-  text-decoration: none;
-  color: black;
-}
-
 .author-container > .icons {
   float: right;
   padding-top: 30px;
@@ -450,10 +429,6 @@ aside {
   margin-bottom: 30px;
 }
 
-aside > h3 {
-  font-weight: bold;
-}
-
 .editor-article {
   list-style-type: none;
 }
@@ -468,7 +443,3 @@ aside > h3 {
   vertical-align: middle;
 }
 
-.editor-article a {
-  text-decoration: none;
-  color: black;
-}
