@@ -134,6 +134,7 @@ table {
 main {
   margin: 0 auto;
   width: 80%;
+  margin-top: 60px;
 }
 
 img[alt="Alan Guth"] {
@@ -149,10 +150,6 @@ img[alt="bottom logo"] {
   width: 150px;
   position: relative;
   left: -200px;
-}
-
-main {
-  margin-top: 60px;
 }
 
 nav {
